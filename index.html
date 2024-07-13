@@ -12,10 +12,10 @@
   </head>
   <body>
     <!---------- HEADER ---------->
-    <header class="banner-container container d-flex-column font-3">
+    <header id="banner" class="container d-flex-column font-3">
       <!----- Banner ----->
       <div class="banner-content d-flex-column">
-        <h6>Happy New Year</h6>
+        <h5>Happy New Year</h5>
         <h1>
           New Year Party<br />
           Celebration
@@ -26,22 +26,24 @@
     <!---------- MAIN ---------->
     <main>
       <!------- New Year Sale -------->
-      <section id="sales" class="container d-flex-column font-2">
-        <h1 class="font-1">65% OFF</h1>
-        <h6 class="font-1">OUR HOLIDAY DEALS ARE BETTER</h6>
-        <h2>ALL CATEGORIES</h2>
-        <img width="50%" src="assets/images/New Year Photo.png" alt="" />
+      <section id="sales" class="container font-2">
+        <div class="sales-content d-flex-column ">
+          <h1 class="font-1">65% OFF</h1>
+          <h5 class="font-1">OUR HOLIDAY DEALS ARE BETTER</h5>
+          <h2>ALL CATEGORIES</h2>
+          <img width="50%" src="assets/images/New Year Photo.png" alt="" />
+        </div>
       </section>
 
       <!------- Midnight Party -------->
       <section id="party" class="container font-3">
         <div class="party-contents d-flex-column">
-          <div class="party-desc">
+          <div class="party-desc d-flex-column">
             <h1>
               Welcome to<br />
               midnight party
             </h1>
-            <p>
+            <p class="para">
               Dolor sit amet consectetur. Consequat eget consectetur maecenas
               sed molestie malesuada. Ipsum sed sodales risus ut pellentesque
               vel euismod.
@@ -56,7 +58,7 @@
 
       <!------- Party Location -------->
       <section id="location" class="container font-2">
-        <div class="loction-contents d-flex-column">
+        <div class="location-contents d-flex-column">
           <div class="location-desc d-flex-column">
             <p><span class="font-1">Place: </span>New Park Hotel</p>
             <p><span class="font-1">Date: </span>31 December 2023</p>
@@ -68,12 +70,12 @@
         </div>
       </section>
 
-      <!------- Coming Soon -------->
+      <!------- Best Offer -------->
       <section id="best-offer" class="container d-flex-column font-2">
         <div class="left-sect d-flex-column">
-          <h5 class="font-1">NEW BEST OFFER</h5>
-          <h3>Coming Soon</h3>
-          <p>
+          <h5 class="font-1 sub-title">NEW BEST OFFER</h5>
+          <h3 class="title">Coming Soon</h3>
+          <p class="para">
             Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
             molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
             euismod.
@@ -84,7 +86,7 @@
         </div>
         <div class="right-sect d-flex-column">
           <h3 class="font-1">2024</h3>
-          <p>
+          <p class="para">
             Dolor sit amet consectetur. Consequat eget consectetur maecenas sed.
           </p>
           <img src="assets/images/Group 96.png" alt="" />
@@ -93,13 +95,12 @@
 
       <!------- Holiday Sale -------->
       <section id="holidays" class="container">
-        <div class="holiday-sale-desc d-flex-column">
+        <div class="holiday-sale-desc d-flex-column font-2">
           <h5>WHAT IS FUNCTIONAL</h5>
           <h1><span class="font-1">Holidays</span> Sale 50%</h1>
-          <p>
+          <p class="para">
             Dolor sit amet consectetur. Consequat eget consectetur maecenas
-            sed<br />
-            molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
+            sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
             euismod. Eleifend nunc purus quam id fermentum amet amet sit
             consectetur.
           </p>
@@ -126,7 +127,7 @@
         <div class="font-2 d-flex-column portfolio-desc">
           <h6 class="font-1">THE BEST GIFTS</h6>
           <h3>Our Awesome Portfolio</h3>
-          <p>
+          <p class="para">
             Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
             molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
             euismod.
@@ -148,23 +149,24 @@
           <div class="newsletter-desc d-flex-column">
             <img src="assets/images/Group 61.png" alt="" />
             <h3>Subscribe Newsletter</h3>
-            <p>
+            <p class="para">
               Dolor sit amet consectetur. Consequat eget consectetur maecenas
               sed molestie malesuada. Ipsum sed sodales risus ut pellentesque
               vel euismod.
             </p>
           </div>
           <div class="mail-form">
-            <input type="email" name="email" id="mail" />
+            <input type="email" name="email" id="mail" placeholder="user@email.com"/>
             <button class="page-btn">Subscribe</button>
           </div>
         </div>
       </section>
     </main>
 
+    <!------- FOOTER -------->
     <footer class="font-3">
-      <div class="container">
-        <div class="row1">
+      <div class="container para">
+        <div class="row1 d-flex-column">
           <div class="address">
             <p>44, Big Building Roosevelt Street</p>
             <p>Beach Gardens Florida 33410</p>
@@ -176,10 +178,10 @@
         </div>
 
         <div class="row2">
-          <img src="assets/icons/Facebook.png" alt="">
-          <img src="assets/icons/Instagram.png" alt="">
-          <img src="assets/icons/Twitter.png" alt="">
-          <img src="assets/icons/Linkedin.png" alt="">
+          <img src="assets/icons/Facebook.png" alt="" />
+          <img src="assets/icons/Instagram.png" alt="" />
+          <img src="assets/icons/Twitter.png" alt="" />
+          <img src="assets/icons/Linkedin.png" alt="" />
         </div>
 
         <div class="row3">
