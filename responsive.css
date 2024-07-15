@@ -32,6 +32,7 @@
     .para {
         font-size: 1rem;
     }
+
     /* ======== Party ======== */
     .party-contents {
         flex-direction: column;
@@ -44,7 +45,6 @@
     /* ======== Party Location ======== */
     #location .location-desc {
         font-size: 1.5rem;
-        text-align: center;
     }
 
     /* ======== Best Offer ======== */
@@ -68,7 +68,7 @@
     }
 
     #holidays .surprise-images {
-        height: 20vh;
+        height: 25vh;
     }
 
     #holidays .surprise-images .box {
@@ -98,7 +98,8 @@
     #newsletter .newsletter-container {
         padding: 5%;
     }
-    #newsletter .newsletter-container .newsletter-desc h2{
+
+    #newsletter .newsletter-container .newsletter-desc h2 {
         text-align: center;
     }
 
@@ -129,12 +130,115 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /* CSS rules for medium devices */
+
+    /* ======== Party ======== */
+    .party-contents {
+        flex-direction: column;
+    }
+
+    /* ======== Party Location ======== */
+    #location .location-desc {
+        font-size: 1.9rem;
+    }
+
+    /* ======== Best Offer ======== */
+    #best-offer {
+        flex-direction: column;
+    }
+
+    #best-offer>div {
+        width: auto;
+        align-items: center;
+    }
+
+    /* ======== Holidays Sale ======== */
+    .holiday-sale-desc {
+        padding: 5%;
+    }
+
+    #holidays h1 {
+        text-align: center;
+    }
+
+    #holidays .surprise-images {
+        height: 30vh;
+    }
+
+    #holidays .surprise-images .box {
+        width: 300px;
+        left: 30px;
+        bottom: 50px;
+    }
+
+    #holidays .surprise-images .discount {
+        width: 200px;
+        right: 30px;
+        top: 10px;
+    }
+
+    /* ======== Newsletter ======== */
+    #newsletter .newsletter-container {
+        padding: 5%;
+    }
+
+    /* ======== FOOTER ======== */
+    footer .container {
+        padding: 5%;
+    }
+
+    footer .row1 {
+        flex-direction: column;
+    }
+
+    footer .row3 {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* CSS rules for large devices */
+
+    /* ======== Party ======== */
+    .party-contents {
+        flex-direction: column;
+    }
+
+    #party .party-desc {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* ======== Best Offer ======== */
+    #best-offer {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    #best-offer>div {
+        width: auto;
+        align-items: center;
+    }
+
+    /* ======== Holidays Sale ======== */
+    .holiday-sale-desc {
+        padding: 5%;
+    }
+
+    #holidays .surprise-images {
+        height: 35vh;
+    }
+
+    #holidays .surprise-images .box {
+        width: 400px;
+    }
+
+    #holidays .surprise-images .discount {
+        position: absolute;
+        width: 250px;
+        right: 40px;
+        top: 100px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

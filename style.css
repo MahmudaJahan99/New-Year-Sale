@@ -134,6 +134,7 @@ body {
 #location .location-desc {
     font-size: 2rem;
     font-weight: 600;
+    text-align: center;
 }
 
 #location .page-btn {
@@ -175,7 +176,7 @@ body {
 
 #holidays .surprise-images {
     position: relative;
-    height: 680px;
+    height: 100vh;
 }
 
 #holidays .surprise-images img {
