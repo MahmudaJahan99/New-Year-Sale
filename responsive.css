@@ -243,10 +243,21 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    /* CSS rules for extra large devices */
+    /* ======== Holidays Sale ======== */
+    #holidays .surprise-images {
+        height: 50vh;
+    }
+
+    #holidays .surprise-images .box {
+        width: 600px;
+    }
+
+    #holidays .surprise-images .discount {
+        width: 350px;
+    }
 }
 
 /* XXL devices (very large desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    /* CSS rules for XXL devices */
+    
 }
