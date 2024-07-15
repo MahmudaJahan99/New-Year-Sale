@@ -53,10 +53,27 @@ body {
     cursor: pointer;
 }
 
+.big-title{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Inter;
+}
+
 .para {
     font-size: 1.2rem;
     text-align: justify;
     font-family: Inter;
+    opacity: 0.6;
 }
 
 /* ======== Banner ======== */
@@ -75,36 +92,11 @@ body {
     padding: 5%;
 }
 
-.banner-content h5 {
-    font-size: 2rem;
-    font-weight: 400;
-}
-
-.banner-content h1 {
-    font-size: 5rem;
-    font-weight: 900;
-}
-
 
 
 /* ======== Sale ======== */
 #sales {
     font-family: "Inter", sans-serif;
-}
-
-#sales .sales-content h1 {
-    font-size: 5.5rem;
-    font-weight: 700;
-}
-
-#sales .sales-content h5 {
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
-#sales .sales-content h2 {
-    font-size: 3rem;
-    font-weight: 700;
 }
 
 
@@ -124,12 +116,6 @@ body {
 
 #party .party-desc {
     align-items: flex-start;
-}
-
-#party .party-desc h1 {
-    font-size: 4rem;
-    font-weight: 900;
-    letter-spacing: 11%;
 }
 
 #party .page-btn {
@@ -169,30 +155,11 @@ body {
     align-items: start;
 }
 
-#best-offer p {
-    opacity: 0.6;
-}
-
-#best-offer .left-sect h5 {
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
-#best-offer .left-sect h3 {
-    font-size: 3rem;
-    font-weight: 900;
-}
-
 #best-offer .middle-sect {
     width: 100%;
     border: 1rem solid rgb(255, 0, 0);
     border-radius: 50%;
     padding: 3rem;
-}
-
-#best-offer .right-sect h3 {
-    font-size: 3rem;
-    font-weight: 700;
 }
 
 
@@ -202,19 +169,7 @@ body {
     padding: 0 15%;
 }
 
-#holidays h1 {
-    font-size: 4.5rem;
-    font-weight: 900;
-}
-
-#holidays h5 {
-    font-family: Inter;
-    font-size: 2rem;
-    font-weight: 500;
-}
-
 #holidays p {
-    opacity: 0.6;
     text-align: center;
 }
 
@@ -251,30 +206,12 @@ body {
 
 /* ======== Portfolio ======== */
 #portfolio .portfolio-desc {
+    width: 70%;
     align-items: flex-start;
 }
 
-#portfolio h6 {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-
-#portfolio h3 {
-    color: rgb(7, 2, 17);
-    font-size: 3rem;
-    font-weight: 900;
-}
-
-#portfolio p {
-    opacity: 0.6;
-    margin-bottom: 40px;
-}
-
 #portfolio .portfolio-img {
+    margin: 5% 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
@@ -292,15 +229,6 @@ body {
 
 #newsletter .newsletter-container {
     padding: 8% 20%;
-}
-
-#newsletter .newsletter-desc h3 {
-    font-size: 3rem;
-    font-weight: 900;
-}
-
-#newsletter .newsletter-desc p {
-    opacity: 0.6;
 }
 
 #newsletter .mail-form {

@@ -7,67 +7,41 @@
         margin: 15% auto;
     }
 
+    .big-title {
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .para {
+        font-size: 1.2rem;
+        text-align: justify;
+        font-family: Inter;
+        opacity: 0.6;
+    }
+
     .para {
         font-size: 1rem;
     }
-
-    .page-btn {
-        font-size: 1em;
-        padding: 5% 10%;
-    }
-
-    /* ======== Banner ======== */
-    .banner-content {
-        padding: 5%;
-    }
-
-    .banner-content h5 {
-        font-size: 1.5rem;
-        font-weight: 400;
-    }
-
-    .banner-content h1 {
-        font-size: 3rem;
-        font-weight: 900;
-    }
-
-    /* ======== Sale ======== */
-    #sales .sales-content h1 {
-        font-size: 3.5rem;
-    }
-
-    #sales .sales-content h5 {
-        font-size: 1.2rem;
-    }
-
-    #sales .sales-content h2 {
-        font-size: 1.5rem;
-    }
-
     /* ======== Party ======== */
     .party-contents {
         flex-direction: column;
-        padding: 5%;
-    }
-
-    #party .party-desc {
-        align-items: center;
     }
 
     #party .party-desc h1 {
-        font-size: 2.5rem;
         text-align: center;
     }
 
-    #party .page-btn {
-        background: transparent;
-    }
-
     /* ======== Party Location ======== */
-    #location {
-        padding: 5%;
-    }
-
     #location .location-desc {
         font-size: 1.5rem;
         text-align: center;
@@ -83,46 +57,18 @@
         align-items: center;
     }
 
-    #best-offer .left-sect h5 {
-        font-size: 1.2rem;
-    }
-
-    #best-offer .left-sect h3 {
-        font-size: 2.5rem;
-    }
-
-    #best-offer .middle-sect {
-        padding: 1.5rem;
-    }
-
-    #best-offer .right-sect h3 {
-        font-size: 2.5rem;
-    }
 
     /* ======== Holidays Sale ======== */
     .holiday-sale-desc {
         padding: 5%;
     }
 
-    #holidays h5 {
-        font-size: 1.2rem;
-    }
-
     #holidays h1 {
-        font-size: 3rem;
         text-align: center;
     }
 
-    #holidays p {
-        text-align: justify;
-    }
-
     #holidays .surprise-images {
-        height: 30vh;
-    }
-
-    #holidays .surprise-images img {
-        width: 100%;
+        height: 20vh;
     }
 
     #holidays .surprise-images .box {
@@ -134,30 +80,25 @@
     #holidays .surprise-images .discount {
         width: 100px;
         right: 30px;
-        top: 40px;
+        top: 20px;
     }
 
     /* ======== Portfolio ======== */
-    #portfolio h6 {
-        font-size: 1.2rem;
-    }
-
-    #portfolio h3 {
-        font-size: 2rem;
+    #portfolio .portfolio-desc {
+        width: 100%;
+        align-items: center;
         text-align: center;
     }
 
     #portfolio .portfolio-img {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /* ======== Newsletter ======== */
     #newsletter .newsletter-container {
-        padding: 10%;
+        padding: 5%;
     }
-
-    #newsletter .newsletter-desc h3 {
-        font-size: 2rem;
+    #newsletter .newsletter-container .newsletter-desc h2{
         text-align: center;
     }
 
@@ -170,7 +111,7 @@
         flex-direction: column;
     }
 
-    footer .row2 img{
+    footer .row2 img {
         width: 2em;
     }
 
