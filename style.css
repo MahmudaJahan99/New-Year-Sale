@@ -3,9 +3,6 @@
 
 
 /* ========== GLOBAL ========== */
-.hide {
-    display: none;
-}
 * {
     margin: 0;
     padding: 0;
@@ -16,10 +13,18 @@ body {
     font-family: "Merriweather", serif;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
     width: 90%;
     margin: 10% auto;
     border-radius: 16px;
+}
+
+.t-center {
+    text-align: center;
 }
 
 .d-flex-column {
@@ -48,7 +53,7 @@ body {
     font-size: 1.3em;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     border: none;
     cursor: pointer;
 }
@@ -166,21 +171,15 @@ body {
 
 
 /* ======== Holidays Sale ======== */
-.holiday-sale-desc {
-    padding: 0 15%;
-}
 
-#holidays p {
+#holidays .holiday-sale-desc {
+    padding: 0 15%;
     text-align: center;
 }
 
 #holidays .surprise-images {
     position: relative;
     height: 100vh;
-}
-
-#holidays .surprise-images img {
-    width: 100%;
 }
 
 #holidays .surprise-images .bottom-red {
@@ -192,16 +191,16 @@ body {
 
 #holidays .surprise-images .box {
     position: absolute;
-    width: 650px;
-    left: 50px;
-    bottom: 80px;
+    width: 50%;
+    left: 2rem;
+    bottom: 4rem;
 }
 
 #holidays .surprise-images .discount {
     position: absolute;
-    width: 300px;
-    right: 40px;
-    top: 70px;
+    width: 30%;
+    right: 2rem;
+    top: 4rem;
 }
 
 
@@ -268,10 +267,10 @@ footer .row1 {
 }
 
 footer .row2 {
-    width: 100%;
+    flex-direction: row;
+    justify-content: center;
     margin: 50px auto;
     padding: 20px 0;
-    text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }

@@ -2,35 +2,25 @@
 @media (max-width: 575.98px) {
 
     /* ========== GLOBAL ========== */
-    .container {
-        width: 90%;
-        margin: 15% auto;
-    }
-
     .big-title {
-        font-size: 3.5rem;
-        font-weight: 800;
+        font-size: 2.8rem;
     }
 
     .title {
-        font-size: 2.5rem;
-        font-weight: 600;
+        font-size: 2rem;
     }
 
     .subtitle {
-        font-size: 1.3rem;
-        font-weight: 500;
-    }
-
-    .para {
         font-size: 1.2rem;
-        text-align: justify;
-        font-family: Inter;
-        opacity: 0.6;
     }
 
     .para {
         font-size: 1rem;
+    }
+
+    .page-btn {
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
     }
 
     /* ======== Party ======== */
@@ -59,28 +49,22 @@
 
 
     /* ======== Holidays Sale ======== */
-    .holiday-sale-desc {
+    #holidays .holiday-sale-desc {
         padding: 5%;
     }
 
-    #holidays h1 {
-        text-align: center;
-    }
-
     #holidays .surprise-images {
-        height: 25vh;
+        height: 50vh;
     }
 
     #holidays .surprise-images .box {
-        width: 200px;
-        left: 5px;
-        bottom: 8px;
+        left: 1.5rem;
+        bottom: 1.5rem;
     }
 
     #holidays .surprise-images .discount {
-        width: 100px;
-        right: 30px;
-        top: 20px;
+        right: 1rem;
+        top: 2rem;
     }
 
     /* ======== Portfolio ======== */
@@ -101,6 +85,9 @@
 
     #newsletter .newsletter-container .newsletter-desc h2 {
         text-align: center;
+    }
+    #newsletter .mail-form button {
+        padding: 3% 5%;
     }
 
     /* ======== FOOTER ======== */
@@ -152,28 +139,8 @@
     }
 
     /* ======== Holidays Sale ======== */
-    .holiday-sale-desc {
-        padding: 5%;
-    }
-
-    #holidays h1 {
-        text-align: center;
-    }
-
     #holidays .surprise-images {
-        height: 30vh;
-    }
-
-    #holidays .surprise-images .box {
-        width: 300px;
-        left: 30px;
-        bottom: 50px;
-    }
-
-    #holidays .surprise-images .discount {
-        width: 200px;
-        right: 30px;
-        top: 10px;
+        height: 100vh;
     }
 
     /* ======== Newsletter ======== */
@@ -199,14 +166,24 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    /* ======== Party ======== */
-    .party-contents {
-        flex-direction: column;
+    /* ========== GLOBAL ========== */
+    .big-title {
+        font-size: 4rem;
     }
 
+    .title {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        font-size: 2.25rem;
+    }
+
+    /* ======== Party ======== */
     #party .party-desc {
-        align-items: center;
-        text-align: center;
+        width: 70%;
+        align-items: flex-start;
     }
 
     /* ======== Best Offer ======== */
@@ -221,56 +198,53 @@
     }
 
     /* ======== Holidays Sale ======== */
-    .holiday-sale-desc {
-        padding: 5%;
-    }
-
     #holidays .surprise-images {
-        height: 35vh;
-    }
-
-    #holidays .surprise-images .box {
-        width: 400px;
-    }
-
-    #holidays .surprise-images .discount {
-        position: absolute;
-        width: 250px;
-        right: 40px;
-        top: 100px;
-    }
-
-    /* ======== Holidays Sale ======== */
-    #holidays .surprise-images {
-        height: 150vh;
-    }
-
-    #holidays .surprise-images .box {
-        width: 450px;
-    }
-
-    #holidays .surprise-images .discount {
-        width: 200px;
+        height: 125vh;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
     /* ======== Holidays Sale ======== */
     #holidays .surprise-images {
-        height: 50vh;
-    }
-
-    #holidays .surprise-images .box {
-        width: 600px;
-    }
-
-    #holidays .surprise-images .discount {
-        width: 350px;
+        height: 160vh;
     }
 }
 
 /* XXL devices (very large desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    
+
+    /* ========== GLOBAL ========== */
+    .big-title {
+        font-size: 8rem;
+    }
+
+    .title {
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        font-size: 3rem;
+    }
+
+    .para {
+        font-size: 1.5rem;
+    }
+
+    .page-btn {
+        font-size: 2em;
+    }
+
+    /* ======== Party Location ======== */
+    #location .location-desc {
+        font-size: 2.8rem;
+    }
+
+    #location .page-btn {
+        margin: 2rem;
+        background: rgb(255, 0, 0);
+    }
+
 }
