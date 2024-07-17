@@ -239,6 +239,19 @@
         right: 40px;
         top: 100px;
     }
+
+    /* ======== Holidays Sale ======== */
+    #holidays .surprise-images {
+        height: 150vh;
+    }
+
+    #holidays .surprise-images .box {
+        width: 450px;
+    }
+
+    #holidays .surprise-images .discount {
+        width: 200px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
